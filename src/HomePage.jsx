@@ -8,7 +8,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Particles from "react-particles";
-import { loadFull } from "tsparticles";
+// import { loadFull } from "tsparticles";
 import { motion } from "framer-motion";
 import HowItWorks from "./HowItWorks";
 
@@ -34,9 +34,9 @@ function HomePage() {
   };
 
 
-  const particlesInit = async (main) => {
-    await loadFull(main);
-  };
+  // const particlesInit = async (main) => {
+  //   await loadFull(main);
+  // };
 
   if (loading) {
     return (
@@ -117,7 +117,7 @@ function HomePage() {
         {/* Particle Background */}
         <Particles
           id="tsparticles"
-          init={particlesInit}
+          // init={particlesInit}
           options={{
             background: {
               color: {
