@@ -6,7 +6,7 @@ function HowItWorks() {
   <h1 className="text-4xl font-bold text-gray-800 mb-8">About Us</h1>
   <div className="text-center mb-12">
     <p className="text-xl text-gray-600">
-      Empowering Communities, Preserving Nature, and Driving Social Change
+      Driving Social Change By Preserving Nature
     </p>
   </div>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-4">

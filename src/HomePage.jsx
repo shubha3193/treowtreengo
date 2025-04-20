@@ -182,7 +182,7 @@ function HomePage() {
             transition={{ duration: 1 }}
             className="text-4xl sm:text-5xl md:text-6xl font-bold mb-2"
           >
-            Empowering Lives, Sustaining Nature, and Driving Social Change
+            Plantation, Preservation & Rejuvenation
           </motion.h1>
           {/* <motion.p
             initial={{ opacity: 0, y: 50 }}
@@ -223,19 +223,19 @@ function HomePage() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8 text-center">
             <div className="text-white">
-              <h3 className="text-3xl sm:text-4xl font-bold mb-2">10,000+</h3>
+              <h3 className="text-3xl sm:text-4xl font-bold mb-2">0</h3>
               <p className="text-sm sm:text-lg">Individuals Trained</p>
             </div>
             <div className="text-white">
-              <h3 className="text-3xl sm:text-4xl font-bold mb-2">100+</h3>
+              <h3 className="text-3xl sm:text-4xl font-bold mb-2">0</h3>
               <p className="text-sm sm:text-lg">Environmental Projects</p>
             </div>
             <div className="text-white">
-              <h3 className="text-3xl sm:text-4xl font-bold mb-2">500+</h3>
+              <h3 className="text-3xl sm:text-4xl font-bold mb-2">0</h3>
               <p className="text-sm sm:text-lg">Research Studies Conducted</p>
             </div>
             <div className="text-white">
-              <h3 className="text-3xl sm:text-4xl font-bold mb-2">1M+</h3>
+              <h3 className="text-3xl sm:text-4xl font-bold mb-2">0</h3>
               <p className="text-sm sm:text-lg">People Reached via Awareness Campaigns</p>
             </div>
           </div>
@@ -283,9 +283,9 @@ function HomePage() {
             <li>
               <strong>Phone:</strong> +91 8793939848
             </li>
-            <li>
+            {/* <li>
               <strong>Postal Number:</strong> 123456
-            </li>
+            </li> */}
             <li>
               <strong>Address:</strong> SN 53/1/1A/1A/1, Tamarind Park, Flat 1-702,Dhayari,Havell,Pune,Maharashtra,411041
             </li>
